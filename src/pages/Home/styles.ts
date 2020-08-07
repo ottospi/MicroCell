@@ -1,61 +1,34 @@
 import styled from 'styled-components';
-import { shade } from 'polished';
-import signInBackgroudImg from '../../assets/sign-in-background.png';
+// import { shade } from 'polished';
 
-export const Container = styled.div`
-  height: 100vh;
-
-  display: flex;
-  align-items: stretch;
+export const ImportFileContainer = styled.section`
+  background: #fff;
+  margin-top: 40px;
+  border-radius: 5px;
+  padding: 64px;
 `;
 
-export const Content = styled.div`
+export const H2 = styled.section`
+  color: #011936;
+  font-size: 20 px;
+`;
+
+export const Footer = styled.section`
+  margin-top: 36px;
+  /* margin-bottom: -20px; */
   display: flex;
-  flex-direction: column;
   align-items: center;
+  justify-content: space-between;
 
-  place-content: center;
-  width: 100%;
-  max-width: 700px;
-
-  form {
-    margin: 80px 0;
-    width: 340px;
-    text-align: center;
-
-    h1 {
-      margin-bottom: 24px;
-    }
-
-    > a {
-      color: #f4ede8;
-      display: block;
-      margin-top: 24px;
-      text-decoration: none;
-      transition: color 0.2s;
-
-      &:hover {
-        color: ${shade(0.2, '#f4ede8')};
-      }
-    }
-  }
-
-  > a {
-    color: #ff9000;
-    display: block;
-    margin-top: 24px;
-    text-decoration: none;
-    transition: color 0.2s;
-
+  p {
     display: flex;
     align-items: center;
+    font-size: 12px;
+    line-height: 18px;
+    color: #969cb3;
 
-    svg {
-      margin-right: 16px;
-    }
-
-    &:hover {
-      color: ${shade(0.2, '#ff9000')};
+    img {
+      margin-right: 5px;
     }
   }
 `;

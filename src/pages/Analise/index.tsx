@@ -50,9 +50,6 @@ const Analise: React.FC = () => {
 
   return (
   <Container>
-    <Background>
-    </Background>
-
     <Content>
       <Logo>
         <h1>
@@ -82,9 +79,13 @@ const Analise: React.FC = () => {
 
       <a href="logIn">
         <FiArrowLeft />
-        Voltar
+        Home
       </a>
     </Content>
+
+    <Background>
+
+    </Background>
   </Container>)
 };
 

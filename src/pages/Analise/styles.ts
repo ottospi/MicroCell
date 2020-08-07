@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import signInBackgroudImg from '../../assets/EscalaMaturativa.png';
 import { shade } from 'polished';
 
 export const Container = styled.div`
@@ -53,8 +52,7 @@ export const Logo = styled.div`
 
 export const Background = styled.div`
   flex: 1;
-  background: url(${signInBackgroudImg}) no-repeat center;
-  background-size: cover;
+
 `;
 
 export const ImportFileContainer = styled.section`
