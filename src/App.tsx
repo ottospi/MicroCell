@@ -7,7 +7,7 @@ import Analise from './pages/Analise';
 const App: React.FC = () => (
   <>
   <GlobalStyle />
-  <Home />
+  <Analise />
   </>
 );
 
